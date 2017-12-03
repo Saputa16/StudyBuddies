@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Study Buddies
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">Home Page</a>
+                </li>
+                <li>
+                    <a href="subjects.html">Subjects</a>
+                </li>
+                <li>
+                    <a href="submit.html">Submit a Study Group</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+
+                <form name="myForm" method="get" action="">
+                    <fieldset>
+                    <legend>Study Group</legend>
+
+                    <label for="fname">First name:<br/></label>
+                    <input  class="field" type="text" name="fname" id="fname"/><br/>
+
+                    <label for="lname"><br/>Last name:<br/></label>
+                    <input  class="field" type="text" name="lname" id="lname"/><br/>
+
+                    <label for="subject"><br/>Subject:<br/></label>
+                    <input class="field" type="text" name="subject" id="subject"/><br/>
+
+                    <label for="loc"><br/>Location:<br/></label>
+                    <input class="field" type="text" name="loc" id="loc"/><br/>
+
+                    <label for="size"><br/>Size:<br/></label>
+                    <input class="field" type="text" name="size" id="size"/><br/>
+
+                    <label for="comments"><br/>Please enter your comments:<br/></label>
+                    <input class="field" type="text" name="comments" id="comments" value="Enter your comments" onfocus="emptyText();"/>
+                    <br/>
+                    <br/>
+                    <input type="submit" value="Submit" id="submit" onclick="validate();" />
+                  </fieldset>
+                </form>
+
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    
+
+</body>
+
+</html>
